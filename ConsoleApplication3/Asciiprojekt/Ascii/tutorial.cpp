@@ -5,7 +5,7 @@
 
 	int main()
 	{
-		int pole[] = { 18, 31, 22, 100, 83, -4, 1, 8 };
+		int pole[8] = { 18, 31, 22, 100, 83, -4, 1, 8 };
 		int delkaPole = sizeof(pole) / sizeof(pole[0]); // zjisteni delky pole
 
 		// vypis prvku z neserazeneho pole;
